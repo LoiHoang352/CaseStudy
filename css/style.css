@@ -232,7 +232,7 @@ small{
     position: relative;
    height: 700px;
    background-color: rgba(146, 141, 141, 0.3); 
-   height: 700px;
+   
 }
 .img-footer {
     max-width: 370px;
@@ -252,7 +252,7 @@ small{
 }
 .footer-info {
     padding-top: 120px;
-    width: 80%;
+    width: 83.34%;
     margin: 0 auto; 
     display: flex;
     justify-content: space-around;
