@@ -33,6 +33,9 @@
     .services-hover p {
         font-size: 14px;
     }
+    .services-act{
+        margin-bottom: 10px;
+    }
 
 }
 @media screen and (max-width:768px) {
