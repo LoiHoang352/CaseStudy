@@ -76,9 +76,22 @@
     }
     .footer-info .icon,
     .footer-info span{
-        font-size: 15px;
+        font-size: 12px;
     }
     .social .icon {
         font-size: 20px;
+    }
+    .person {
+        margin-bottom: 10px;
+    }
+    .services-act:hover .services-hover{
+        bottom: 20%;
+        opacity: 1;
+    }
+    .footer-info span{
+        padding: 5px;
+    }
+    .social{
+        bottom: 5%;
     }
 }
