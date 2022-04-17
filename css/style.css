@@ -25,11 +25,9 @@ p{
 
 #banner {  
     height: auto;
-    background: linear-gradient(rgba(0,0,0,0.5),#009688), url(/images/images/banner.jpg) top center / cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),#009688), url("/images/images/banner.jpg") top center / cover no-repeat;
     padding: 200px 0;
-    z-index: -1;
-    
-    
+    z-index: -1;      
 }
 #banner .logo {   
     position: absolute;
