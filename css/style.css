@@ -3,14 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-family: 'Poppins', sans-serif;
+}
 h1{
-    font-weight: lighter;
+    
     font-size: 40px;
     
 }
 p{
-    opacity: 0.5;
+    
     line-height: 1.6;
 }
 .col-6 {
@@ -77,6 +79,42 @@ p{
 }
 .banner-btn a:hover {
     color: black;
+}
+/* sideNav */
+#sidenav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 250px;
+    background-color: #009688;
+    z-index: 2;
+    transition: right 0.5s;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 50px 20px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+#menubtn {
+    width: 50px;
+    height: 50px;
+    background-color: #009688;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menubtn img {
+    width: 20px;
+    margin-top: 15px;
 }
 #services {   
     text-align: center;

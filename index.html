@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    
     <title>Document</title>
 </head>
 <body>
@@ -24,6 +25,35 @@
             </div>  
         </div>
     </div>
+    <section id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonital</a></li>
+                <li><a href="#">Meet Us</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div id="menubtn">
+        <img src="./images/images/menu.png" alt="" id="menu">
+    </div>
+    <script>
+        var menubtn = document.getElementById("menubtn");
+        var sidenav = document.getElementById("sidenav");
+        var menu = document.getElementById ("menu");
+        sidenav.style.right = "-250px";
+        menubtn.onclick = function() {
+            if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0";
+                menu.src = "./images/images/close.png";
+            }else{
+                sidenav.style.right = "-250px";
+                menu.src = "./images/images/menu.png";
+            }
+        }
+    </script>
     <div id="features">
         <div class="features-heading">
 
